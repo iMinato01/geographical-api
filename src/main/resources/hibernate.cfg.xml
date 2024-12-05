@@ -4,6 +4,6 @@
         <property name="connection.username">root</property>
         <property name="connection.password">root</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <mapping resource="Objects.State"/>
+        <mapping resource="gg.Models.State"/>
     </session-factory>
 </hibernate-configuration>

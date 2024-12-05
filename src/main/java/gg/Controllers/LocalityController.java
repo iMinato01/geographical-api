@@ -1,4 +1,4 @@
-package Controllers;
+package gg.Controllers;
 
 public class LocalityController {
 }

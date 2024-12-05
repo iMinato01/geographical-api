@@ -1,4 +1,4 @@
-package Services;
+package gg.Services;
 
 public class MunicipalityService {
 }
