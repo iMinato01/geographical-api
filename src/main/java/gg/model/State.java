@@ -1,21 +1,18 @@
-package gg.Models;
+package gg.model;
 
 import jakarta.persistence.*;
 
 import java.util.*;
 
 @Entity
-@Table(name = "state")
+@Table(name = "states")
 public class State {
     @Id
-    @Column(name = "state_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    @Column(name = "state_name")
     private String name;
-    @Column(name = "state_capital")
     private String capital;
-    @OneToMany(mappedBy = "state", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "state")
     private Set<Municipality> municipalities = new LinkedHashSet<>();
     public State(){
 

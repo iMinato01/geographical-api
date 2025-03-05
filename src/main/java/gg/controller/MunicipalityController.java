@@ -1,4 +1,4 @@
-package gg.Controllers;
+package gg.controller;
 
 public class MunicipalityController {
 }

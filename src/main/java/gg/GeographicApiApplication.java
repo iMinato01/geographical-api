@@ -8,5 +8,4 @@ public class GeographicApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GeographicApiApplication.class, args);
 	}
-
 }

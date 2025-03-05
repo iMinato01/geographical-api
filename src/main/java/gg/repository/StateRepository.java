@@ -1,6 +1,6 @@
-package gg.Repositories;
+package gg.repository;
 
-import gg.Models.State;
+import gg.model.State;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

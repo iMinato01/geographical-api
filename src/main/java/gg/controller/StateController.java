@@ -1,7 +1,7 @@
-package gg.Controllers;
+package gg.controller;
 
-import gg.Models.State;
-import gg.Services.StateService;
+import gg.model.State;
+import gg.service.StateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
